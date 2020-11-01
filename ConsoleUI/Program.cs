@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace ConsoleUI
+﻿namespace ConsoleUI
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Shell.Start();
         }
     }
 }
